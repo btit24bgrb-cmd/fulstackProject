@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Development ePortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My ePortfolio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#fullstack">Full Stack</a></li>
+                <li class="nav-item"><a class="nav-link" href="#html">HTML</a></li>
+                <li class="nav-item"><a class="nav-link" href="#css">CSS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#bootstrap">Bootstrap</a></li>
+                <li class="nav-item"><a class="nav-link" href="#javascript">JavaScript</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <!-- Full Stack Section -->
+        <section id="fullstack">
+            <h2>What is Full Stack Development?</h2>
+            <p>Full stack development involves working on both the front-end (client side) and back-end (server side) of web applications.</p>
+        </section>
+
+        <hr>
+
+        <!-- HTML Section -->
+        <section id="html">
+            <h2>HTML Example</h2>
+            <p>HTML defines the structure of a web page. Example below:</p>
+            <pre>
+&lt;h1&gt;Welcome to My Portfolio&lt;/h1&gt;
+&lt;p&gt;This is an HTML example.&lt;/p&gt;
+            </pre>
+        </section>
+
+        <hr>
+
+        <!-- CSS Section -->
+        <section id="css">
+            <h2>CSS Example</h2>
+            <p>CSS is used to style HTML elements.</p>
+            <div class="css-demo">
+                <p class="styled-text">This text is styled with CSS!</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Bootstrap Section -->
+        <section id="bootstrap">
+            <h2>Bootstrap Example</h2>
+            <button class="btn btn-primary">Bootstrap Button</button>
+        </section>
+
+        <hr>
+
+        <!-- JavaScript Section -->
+        <section id="javascript">
+            <h2>JavaScript Example</h2>
+            <p id="js-text">Click the button to change this text.</p>
+            <button id="changeTextBtn" class="btn btn-success">Change Text</button>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="contact.php" method="POST" class="form-group">
+                <input type="text" name="name" placeholder="Your Name" class="form-control mb-2" required>
+                <input type="email" name="email" placeholder="Your Email" class="form-control mb-2" required>
+                <textarea name="message" placeholder="Your Message" class="form-control mb-2" required></textarea>
+                <button type="submit" class="btn btn-dark">Send</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
